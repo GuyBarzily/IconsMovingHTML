@@ -1,0 +1,78 @@
+/* styles.css */
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#animation-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+}
+
+#box-container {
+    border: 2px solid black;
+    width: 80vw;
+    height: 80vh;
+
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: grey;
+}
+
+#p {
+    /* position: relative; */
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    z-index: 9999;
+    color: white;
+
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15%;
+}
+
+.img:hover {
+    width: 120px;
+    height: 120px;
+
+}
+
+#plus-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.fa-plus {
+    font-size: 24px;
+    /* Set the default size of the icon */
+    transition: transform 0.2s ease;
+}
+
+.fa-plus:hover {
+    transform: scale(1.2);
+    /* Increases the size by 20% on hover */
+}
